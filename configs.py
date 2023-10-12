@@ -10,7 +10,7 @@ class Config(object):
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5971676967"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
@@ -20,8 +20,9 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
-Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
+Hello {mention}
+
+My name is Kurumi Tokisaki. I'm a File Share Bot of @Chowdhury_Siam. If you want to use this me too. Message my master.
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
 │
@@ -33,23 +34,22 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Predator HackerzZ](https://t.me/OwnYourBotz) 
+├🔸 **Developer:** [Siam Chowdhury](https://t.me/Chowdhury_Siam) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/TeleRoid14)
+├🔹 **Bot Support:** [Support Group](https://t.me/+JgjRWhYBOaA0ZGRl)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/TeleRoidGroup)
+├🔸 **Discussion Group:** [Discussion Group](https://t.me/+JgjRWhYBOaA0ZGRl)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 **Owner:** [Siam Chowdhury](https://t.me/Chowdhury_Siam)
  
- I am Super noob Please Support My Hard Work.
+ I am Super noob Please Support Channel.
 
-[Donate Me](https://t.me/DonateXrobot) or ```MrAbhi2k3@apl```
 """
 	HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
+Hello, [{}](tg://user?id={})\n\nThis is a FileStore Bot **FileStore Bot**.
 
 How to Use Bot & it's Benefits??
 
