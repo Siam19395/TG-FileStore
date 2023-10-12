@@ -20,8 +20,6 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-Hello There User.
-
 My name is Kurumi Tokisaki. I'm a File Share Bot of @Chowdhury_Siam. If you want to use this me too. Message my master.
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
@@ -45,17 +43,8 @@ My name is Kurumi Tokisaki. I'm a File Share Bot of @Chowdhury_Siam. If you want
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Owner:** [Siam Chowdhury](https://t.me/Chowdhury_Siam)
  
- I am Super noob Please Support Channel.
+ I am Super noob Please Support My Main Channel.
 
 """
 	HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a FileStore Bot **FileStore Bot**.
-
-How to Use Bot & it's Benefits??
-
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
-
-❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
-"""
+Hello, [{}](tg://user?id={})\n\nI'm Kurumi Tokisaki. And I'm an **FileStore Bot**.
