@@ -42,10 +42,11 @@ My name is Kurumi Tokisaki. I'm a File Share Bot of @Chowdhury_Siam. If you want
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Owner:** [Siam Chowdhury](https://t.me/Chowdhury_Siam)
-"""
  
- I am Super noob Please Support My Main Channel.
-
+ I'm working hard for you guys. So Please Support my Main Channel.
+ 
+[Main Channel](https://t.me/Anime_Kun_Channel) or ```@Anime_Kun_Channel```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nI'm Kurumi Tokisaki. And I'm an **FileStore Bot**.
+"""
